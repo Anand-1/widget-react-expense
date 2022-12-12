@@ -1,13 +1,7 @@
-import "./App.css";
+import Expenses from "./components/Expenses";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello Anand !</h1>
-      </header>
-    </div>
-  );
+  return <Expenses />;
 }
 
 App();
