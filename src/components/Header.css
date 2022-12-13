@@ -1,0 +1,13 @@
+.header-slot {
+  width: auto;
+  height: 100px;
+  background-color: blueviolet;
+  color: blanchedalmond;
+  text-align: center;
+  vertical-align: middle;
+}
+h1 {
+  display: block;
+  margin: auto;
+  width: 40%;
+}

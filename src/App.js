@@ -1,7 +1,13 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expense/Expenses";
+import Header from "./components/Header";
 
 function App() {
-  return <Expenses />;
+  return (
+    <div>
+      <Header />
+      <Expenses />
+    </div>
+  );
 }
 
 App();
