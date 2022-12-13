@@ -31,12 +31,13 @@ const App = () => {
     setExpenses((prevState) => {
       return [expense, ...expenses];
     });
+    console.log(expense);
   };
   return (
     <div>
       <Header />
       <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses items={expenses} />
+      <Expenses items={DUMMY_EXPENSES} />
     </div>
   );
 };
